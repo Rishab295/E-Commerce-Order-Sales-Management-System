@@ -197,3 +197,157 @@ This project demonstrates the following SQL concepts:
 CREATE
 ALTER
 DROP
+
+DML - Data Manipulation Language
+SELECT
+INSERT
+UPDATE
+DELETE
+DCL - Data Control Language
+GRANT
+REVOKE
+TCL - Transaction Control Language
+START TRANSACTION
+COMMIT
+ROLLBACK
+SAVEPOINT
+Joins
+INNER JOIN
+LEFT JOIN
+SELF JOIN
+CROSS JOIN
+Aggregate Functions
+COUNT()
+SUM()
+AVG()
+MAX()
+MIN()
+Grouping and Filtering
+GROUP BY
+HAVING
+WHERE
+ORDER BY
+Subqueries
+Subqueries
+Nested Queries
+🎯 Project Objectives
+
+The main objectives of this project are:
+
+Understand relational database design
+Practice creating database tables
+Understand primary keys and foreign keys
+Insert and manipulate data
+Retrieve data using SELECT queries
+Understand different types of JOINs
+Work with aggregate functions
+Use GROUP BY and HAVING
+Write subqueries and nested queries
+Understand database user permissions
+Understand SQL transactions
+Solve real-world SQL problems
+🚀 How to Run the Project
+Step 1: Open MySQL Workbench
+
+Open MySQL Workbench and connect to your MySQL server.
+
+Step 2: Run the DDL file
+
+Run:
+
+DDL.sql
+
+This creates the database and required tables.
+
+Step 3: Run the DML file
+
+Run:
+
+DML.sql
+
+This inserts the initial customer, category, and product data.
+
+Step 4: Run the JOIN queries
+
+Run:
+
+JOINS.sql
+
+This demonstrates different JOIN operations and aggregate queries.
+
+Step 5: Run DCL & TCL
+
+Run:
+
+DCL & TCL.sql
+
+This demonstrates database permissions and transactions.
+
+Step 6: Practice the final questions
+
+Open:
+
+Project Questions & Solutions.sql
+
+Try solving each question yourself before checking the solution.
+
+🧠 Learning Approach
+
+The project is designed to be practiced step-by-step.
+
+Instead of directly memorizing SQL queries, the goal is to understand:
+
+Problem
+   ↓
+Identify required table(s)
+   ↓
+Identify relationship between tables
+   ↓
+Choose JOIN / WHERE / GROUP BY / HAVING
+   ↓
+Apply aggregate function if required
+   ↓
+Write SQL query
+   ↓
+Analyze the result
+📌 Important Note
+
+Some JOIN, aggregation, and advanced queries depend on transactional data in the Orders, Order_Items, and Employees tables.
+
+If these tables do not contain sufficient sample records, some queries may return empty or limited results.
+
+The SQL queries are included to demonstrate the corresponding SQL concepts and can be tested with additional sample data.
+
+📈 Future Improvements
+
+Possible future improvements for this project include:
+
+Add more realistic order and payment data
+Add more customers and products
+Add product reviews and ratings
+Add inventory management
+Add stored procedures
+Add SQL views
+Add indexes for query optimization
+Add triggers
+Connect the database with Python
+Build a Streamlit dashboard for sales analytics
+👨‍💻 Author
+
+Rishab Das
+
+This project was created as a SQL learning and portfolio project to practice relational database concepts and SQL interview questions.
+
+⭐ Skills Demonstrated
+MySQL
+SQL
+Database Design
+Data Manipulation
+Data Definition
+Joins
+Subqueries
+Aggregate Functions
+Data Analysis
+Transaction Management
+Database Permissions
+Problem Solving
