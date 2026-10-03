@@ -19,7 +19,7 @@ USE ecommerce_db;
 SELECT
     c.customer_name,
     o.order_id,
-    o.order_date,
+    o.order_date, 
     o.total_amount
 FROM Customers c
 INNER JOIN Orders o
