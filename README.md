@@ -23,7 +23,7 @@ The project includes the following tables:
 - **Categories** – Stores product categories
 - **Products** – Stores product details, prices, stock, and brands
 - **Employees** – Stores employees and manager relationships
-- **Orders** – Stores customer orders
+- **Orders** – Stores customer orders 
 - **Order_Items** – Stores products included in orders
 - **Payments** – Stores payment information
 
